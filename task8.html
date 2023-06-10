@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task-8</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container mt-3">
+            <form class="was-validated">
+            <div class="mb-3 mt-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="uname" placeholder="Name" name="name" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Name is required</div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="mail" placeholder="Email" name="mail" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Email is required</div>
+            </div>
+                <div class="mb-3">
+                <label for="pwd" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="password" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Password is required</div>
+            </div>
+            <div class="mb-3">
+                <label for="hobbies" class="form-label">Hobbies</label>
+                <select class="form-select" id="sel1" name="sellist1" required>
+                    <option>Select</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+            </div>
+            <div class="text-center"><button type="submit" class="btn btn-danger">Submit</button></div>
+            </form>
+        </div>
+
+    </body>
+</html>
